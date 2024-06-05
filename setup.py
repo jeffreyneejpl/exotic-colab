@@ -13,7 +13,7 @@ AUTHOR_EMAIL = "exoplanetwatch@jpl.nasa.gov"
 DESCRIPTION = "EXOTIC DISPLAY: Google Colab package for EXOTIC - EXOplanet Transit Interpretation Code"
 NAME = "exoticcolab"
 PYTHON_REQUIREMENTS = "3.6"
-URL = "https://github.com/alienlifeform/exotic-colab"
+URL = "https://github.com/jeffreyneejpl/exotic-colab"
 
 REQUIREMENTS_SETUP = ["setuptools_scm"]
 
@@ -77,10 +77,10 @@ setuptools.setup(name=NAME,
                  ],
                  keywords='nasa jpl exoplanet transit citizen science astronomy bayesian nested-sampler',
                  project_urls={
-                    "Documentation": "https://github.com/alienlifeform/EXOTIC/wiki",
+                    "Documentation": "https://github.com/jeffreyneejpl/EXOTIC/wiki",
                     "Site": "https://exoplanets.nasa.gov/exoplanet-watch",
-                    "Source": "https://github.com/rzellem/EXOTIC",
-                    "Tracker": "https://github.com/rzellem/EXOTIC/issues"
+                    "Source": "https://github.com/jeffreyneejpl/EXOTIC",
+                    "Tracker": "https://github.com/jeffreyneejpl/EXOTIC/issues"
                  },
                  #  https://setuptools.readthedocs.io/en/latest/setuptools.html#including-data-files
                  packages=setuptools.find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
