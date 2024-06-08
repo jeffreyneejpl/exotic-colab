@@ -5,7 +5,7 @@ import re
 import time
 from pathlib import Path
 
-import setuptools
+#import setuptools
 
 # Package meta-data sane defaults
 AUTHOR = "Exoplanet Watch at NASA JPL"
